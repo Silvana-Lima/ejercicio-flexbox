@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-image: url(./imagenes/bosque2.jpg); 
+  font-family: Tahoma, sans-serif;
+  color: black;
+  
+}
+
+.container {
+   /* background-color: aqua; */
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+ align-items: center; 
+ height: 100vh;
+  
+  
+}
+
+span {
+  text-decoration: line-through;
+}
+
+p {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+button{
+  
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 10px 20px;
+}
